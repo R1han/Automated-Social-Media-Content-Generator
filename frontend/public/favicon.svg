@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#4a2478"/>
+  <g fill="#ffffff">
+    <path d="M86 46c-17 8-31 41-27 75 10-24 23-38 33-46-11 25-19 57-6 95 2-28 9-51 26-77 0-24-12-43-26-47z"/>
+    <g transform="translate(256 0) scale(-1 1)">
+      <path d="M86 46c-17 8-31 41-27 75 10-24 23-38 33-46-11 25-19 57-6 95 2-28 9-51 26-77 0-24-12-43-26-47z"/>
+    </g>
+    <path d="M46 206V86h34l48 62 48-62h34v120h-26v-79l-56 68-56-68v79z"/>
+    <rect x="48" y="212" width="160" height="4" rx="2"/>
+    <text x="128" y="236" font-size="18" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" letter-spacing="2">MASTERMINDS</text>
+    <text x="128" y="252" font-size="12" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" letter-spacing="3">EDUCATION</text>
+  </g>
+</svg>
