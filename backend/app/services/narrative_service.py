@@ -75,7 +75,7 @@ class NarrativeService:
         keyword_str = ", ".join(keywords) if keywords else "luxury education, neuroscience, bespoke parenting"
         platform_str = ", ".join(platforms) if platforms else "instagram, tiktok"
         return f"""
-        You are the creative director for Masterminds Academy (https://mastermindsacademy.org),
+        You are the creative director for Masterminds Academy (),
         a luxury, neuroscience-led educational institution for high-net-worth families in the UAE and US.
 
         Generate a JSON object with the following keys:
@@ -125,7 +125,7 @@ class NarrativeService:
     def _fallback_narrative(self, keywords: list[str]) -> NarrativePayload:
         keyword_line = ", ".join(keywords[:3]) if keywords else "neuroscience-led, bespoke pathways"
         script = (
-            "At Masterminds Academy, every detail is choreographed by neuroscientists and designers "
+            "At M Academy, every detail is choreographed by neuroscientists and designers "
             "to ignite a child's emerging genius. From Dubai to New York, our ateliers, sensory "
             "labs, and mentorship suites craft fearless thinkers prepared for a changing world."
         )
